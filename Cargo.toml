@@ -1,0 +1,14 @@
+[package]
+name = "truncate-integer"
+description = "Truncate integers"
+keywords = ["truncate", "truncation"]
+categories = ["data-structures"]
+repository = "https://github.com/ericseppanen/truncate-integer"
+license = "MIT"
+authors = ["Eric Seppanen <eds@reric.net>"]
+readme = "README.md"
+version = "0.1.0"
+edition = "2018"
+rust-version = "1.47"
+
+[dependencies]
