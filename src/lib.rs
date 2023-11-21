@@ -55,6 +55,7 @@
 //! integers (including signed-to-unsigned and vice versa), except
 //! `TruncateFromUnchecked`, because it's not immediately clear what the
 //! correct output would be when then input is outside the output bounds.
+#![no_std]
 
 pub trait TryTruncate<T> {
     /// Try to truncate an integer to fit into a smaller type.
